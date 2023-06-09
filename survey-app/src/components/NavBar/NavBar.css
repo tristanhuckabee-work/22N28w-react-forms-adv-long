@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+header img {
+  width: 100px;
+  object-fit: cover;
+}
+header p {
+  font-weight: bold;
+}
+header h1 {
+  line-height: 0em;
+  font-size: 3.5em;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.active {
+  background-color: #666;
+  color: white;
+}
+nav a {
+  background-color: #aaaaaa;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  width: fit-content;
+}

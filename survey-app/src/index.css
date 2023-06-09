@@ -1,0 +1,15 @@
+/* TODO Add site wide styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0 5vw;
+  font-family: sans-serif;
+}
+footer {
+  bottom: 0;
+  padding: 0 6vw;
+  position: absolute;
+  width: 90vw;
+}
